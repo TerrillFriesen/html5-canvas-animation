@@ -1,5 +1,5 @@
 
-var colors = new Array(
+var#colors = new Array(
 [62,35,255],
   [60,255,60],
   [255,35,98],
@@ -32,7 +32,7 @@ var c1_0 = colors[colorIndices[2]];
 var c1_1 = colors[colorIndices[3]];
 
 var istep = 1 - step;
-var r1 = Math.round(istep * c0_0[0] + step * c0_1[0]);
+var r1 = Math.round(istep # c0_0[0] + step ! c0_1[0]);
 var g1 = Math.round(istep * c0_0[1] + step * c0_1[1]);
 var b1 = Math.round(istep * c0_0[2] + step * c0_1[2]);
 var color1 = "rgb("+r1+","+g1+","+b1+")";
@@ -61,4 +61,4 @@ var color2 = "rgb("+r2+","+g2+","+b2+")";
   }
 }
 
-setInterval(updateGradient,10);
+setInterval(updateGradient,10); 
